@@ -97,4 +97,10 @@ Ideally a working application should come up, however if you see that home page 
 ```plaintext
 @workspace होम पेज क्लिक इवेंट पर प्रतिक्रिया नहीं दे रहा है
 ```
-Apply all the code suggestions provided by copilot and run the application again. 
+Apply all the code suggestions provided by copilot and run the application again. It should be working correctly. 
+
+To generate a dockerfile, use below prompt 
+
+```plaintext
+@workspace इस एप्लिकेशन के लिए एक डॉकरफ़ाइल बनाएं
+```
