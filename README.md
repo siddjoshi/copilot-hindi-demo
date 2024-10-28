@@ -49,7 +49,7 @@ This project demonstrates GitHub Copilot's ability to understand native language
 ### Hindi Prompt
 
 ```plaintext
-Python का उपयोग करके एक Flask वेब एप्लिकेशन बनाएं जिसमें निम्नलिखित विशेषताएं हों:
+@workspace /new Python का उपयोग करके एक Flask वेब एप्लिकेशन बनाएं जिसमें निम्नलिखित विशेषताएं हों:
 प्रारंभिक प्रदर्शन:
 होमपेज पर "Happy Diwali" संदेश (अंग्रेज़ी में) दिखाएं और तस्वीर केवल इस URL से लोड करें: https://diwaliimages.blob.core.windows.net/images/india.jpg। कोई लोकल इमेज का उपयोग न करें, तस्वीर को केवल ऑनलाइन स्रोत से लोड करें।
 
@@ -77,3 +77,24 @@ Frontend (HTML + JavaScript):
 CSS Transitions:
 • CSS transitions का उपयोग करें जिससे संदेश और छवि परिवर्तन सुचारू दिखे।
 ```
+
+Above prompt will generate code along with file structure , and you can create all the files using single click in Visual Studio Code. 
+
+Once all the files are generated , install application requirements 
+
+'''
+pip install -r requirements.txt 
+'''
+
+Run the application 
+
+'''
+python app.py
+'''
+
+Ideally a working application should come up, however if you see that home page is not reacting to the clicks , please use below prompt 
+
+'''
+@workspace होम पेज क्लिक इवेंट पर प्रतिक्रिया नहीं दे रहा है
+'''
+Apply all the code suggestions provided by copilot and run the application again. 
