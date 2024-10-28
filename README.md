@@ -82,19 +82,19 @@ Above prompt will generate code along with file structure , and you can create a
 
 Once all the files are generated , install application requirements 
 
-'''
+```plaintext
 pip install -r requirements.txt 
-'''
+```
 
 Run the application 
 
-'''
+```plaintext
 python app.py
-'''
+```
 
 Ideally a working application should come up, however if you see that home page is not reacting to the clicks , please use below prompt 
 
-'''
+```plaintext
 @workspace होम पेज क्लिक इवेंट पर प्रतिक्रिया नहीं दे रहा है
-'''
+```
 Apply all the code suggestions provided by copilot and run the application again. 
