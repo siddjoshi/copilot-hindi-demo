@@ -10,7 +10,7 @@ The project is built using:
 
 - **Backend:** Python with Flask (version > 2.2.2)
 - **Frontend:** HTML, JavaScript, and CSS
-- **GitHub Tools:** GitHub Copilot for code generation and GitHub Codespaces for the development environment
+- **GitHub Tools:** GitHub Copilot for code generation and GitHub Codespaces for the development environment (If not using local VS code)
 
 ## Features
 
